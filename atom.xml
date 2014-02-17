@@ -4,7 +4,7 @@
   <title><![CDATA[Mike Betts]]></title>
   <link href="http://mbetts7.github.io/atom.xml" rel="self"/>
   <link href="http://mbetts7.github.io/"/>
-  <updated>2014-02-17T07:29:32-08:00</updated>
+  <updated>2014-02-17T07:39:01-08:00</updated>
   <id>http://mbetts7.github.io/</id>
   <author>
     <name><![CDATA[Mike Betts]]></name>
@@ -14,10 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Test 2 Published]]></title>
-    <link href="http://mbetts7.github.io/blog/2014/02/17/test-2-published/"/>
-    <updated>2014-02-17T07:27:48-08:00</updated>
-    <id>http://mbetts7.github.io/blog/2014/02/17/test-2-published</id>
+    <title type="html"><![CDATA[Blogging With Octopress]]></title>
+    <link href="http://mbetts7.github.io/blog/2014/02/17/blogging-with-octopress/"/>
+    <updated>2014-02-17T07:37:09-08:00</updated>
+    <id>http://mbetts7.github.io/blog/2014/02/17/blogging-with-octopress</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
