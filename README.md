@@ -32,7 +32,4 @@ Octopress is [Jekyll](https://github.com/mojombo/jekyll) blogging at its finest.
 * [Octopress.org documentation](http://octopress.org/docs)
 * [getting custom domain up and running](http://haikus-in-c.com/posts/github-pages-custom-domain/)
 * [custom domain setting up](https://help.github.com/articles/setting-up-a-custom-domain-with-pages)
-
-
-
-old points to a name 184.168.221.50
+* [octostrap3 site](http://kaworu.github.io/octopress/blog/archives/)
