@@ -1,12 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://mbetts7.github.io/blog/2014/03/31/title/</loc>
+        <lastmod>2014-03-31T21:41:43-07:00</lastmod>
+    </url>
+    <url>
         <loc>http://mbetts7.github.io/blog/archives/</loc>
-        <lastmod>2014-02-17T07:06:38-08:00</lastmod>
+        <lastmod>2014-03-31T21:41:43-07:00</lastmod>
     </url>
     <url>
         <loc>http://mbetts7.github.io/</loc>
-        <lastmod>2014-02-17T07:06:38-08:00</lastmod>
+        <lastmod>2014-03-31T21:41:43-07:00</lastmod>
     </url>
     <url>
         <loc>http://mbetts7.github.io/robots.txt</loc>
