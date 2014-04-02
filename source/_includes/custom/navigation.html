@@ -18,6 +18,7 @@
                     <a href="{{ root_url }}/blog/archives">Archives</a>
                 </li>
             </ul>
+            {% if site.subscribe_email %}
             <ul class="nav navbar-nav navbar-right">
                 <li>
                     <a class="subscribe-rss" href="{{ site.subscribe_rss }}" title="subscribe via RSS">
@@ -25,15 +26,14 @@
                         <img class="hidden-xs" src="{{ root_url }}/images/rss.png" alt="RSS">
                     </a>
                 </li>
-                {% if site.subscribe_email %}
                 <li>
                     <a class="subscribe-email" href="{{ site.subscribe_email }}" title="subscribe via email">
                         <span class="visible-xs">Email</span>
                         <img class="hidden-xs" src="{{ root_url }}/images/email.png" alt="Email">
                     </a>
                 </li>
-                {% endif %}
             </ul>
+            {% endif %}
             {% if site.simple_search %}
                 <form class="search navbar-form navbar-right" action="{{ site.simple_search }}" method="GET">
                     <input type="hidden" name="q" value="site:{{ site.url | shorthand_url }}">
