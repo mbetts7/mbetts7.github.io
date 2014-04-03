@@ -1,42 +1,28 @@
 ---
-layout: default
-navbar: Blog
+layout: page
+navbar: About
+title: Hello.
+footer: false
 ---
 
-<div class="row">
-  <div class="page-content {% unless site.default_asides == empty and site.blog_index_asides == empty %}col-md-9{% else %}col-md-12{% endunless %}">
-    <div class="blog-index">
-      {% assign index = true %}
-      {% for post in paginator.posts %}
-      {% assign content = post.content %}
-        <article class="post">
-          {% include article.html %}
-        </article>
-      {% endfor %}
+
+<section>
+  <h4>I'm a full stack web developer in San Francisco specializing in Ruby on Rails and JavaScript.  I'm currently exploring side projects and open to interesting web development gigs. </br></br>In a previous life, I... </h4>
+    <div class="medium">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt; Managed Analytics and Business Development at <a href="http://wine.com" target="_blank">Wine.com</a>
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt; Was an investment banker at Credit Suisse in the San Francisco Technology Group
+      <br>
+    </div></br>
+  <h3>Contacting me is easy:</h3>
+    <div class="medium">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt; email: <a href="mailto:mbetts7@gmail.com">mbetts7@gmail.com</a>
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt; follow: <a href="http://twitter.com/mbetts7" target="_blank">@mbetts7</a>
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt; github: <a href="http://github.com/mbetts7" target="_blank">mbetts7</a>
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt; linkedin: <a href="http://linkedin.com/in/mbetts7" target="_blank">mbetts7</a>
+      <br>
     </div>
-
-    <ul class="pager">
-      {% if paginator.next_page %}
-        <li class="previous"><a href="{{paginator.next_page}}">&larr;&nbsp;Older</a></li>
-      {% else %}
-        <li class="previous disabled"><a href="#">&larr;&nbsp;Older</a></li>
-      {% endif %}
-      <li><a href="/blog/archives">Blog Archives</a></li>
-      {% if paginator.previous_page %}
-        <li class="next"><a href="{{paginator.previous_page}}">Newer&nbsp;&rarr;</a></li>
-      {% else %}
-        <li class="next disabled"><a href="#">Newer&nbsp;&rarr;</a></li>
-      {% endif %}
-    </ul>
-  </div>
-
-  {% unless site.default_asides == empty and site.blog_index_asides == empty %}
-    <aside class="sidebar col-md-3">
-      {% if site.blog_index_asides.size %}
-        {% include_array blog_index_asides %}
-      {% else %}
-        {% include_array default_asides %}
-      {% endif %}
-    </aside>
-  {% endunless %}
-</div>
+</section>
