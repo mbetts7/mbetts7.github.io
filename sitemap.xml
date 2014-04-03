@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://mbetts7.github.io/about/</loc>
+        <lastmod>2014-04-02T18:03:30-07:00</lastmod>
+    </url>
+    <url>
         <loc>http://mbetts7.github.io/assets/bootstrap/docs/about.html</loc>
         <lastmod>2014-04-01T12:20:41-07:00</lastmod>
     </url>
@@ -39,6 +43,14 @@
     <url>
         <loc>http://mbetts7.github.io/</loc>
         <lastmod>2014-04-01T12:20:42-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://mbetts7.github.io/projects/</loc>
+        <lastmod>2014-04-02T18:04:09-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://mbetts7.github.io/quotes/</loc>
+        <lastmod>2014-04-02T10:57:58-07:00</lastmod>
     </url>
     <url>
         <loc>http://mbetts7.github.io/robots.txt</loc>
